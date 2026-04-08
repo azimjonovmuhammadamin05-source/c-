@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\метод\bin\Debug\net10.0\метод.exe
+C:\Users\HP\Desktop\метод\bin\Debug\net10.0\метод.deps.json
+C:\Users\HP\Desktop\метод\bin\Debug\net10.0\метод.runtimeconfig.json
+C:\Users\HP\Desktop\метод\bin\Debug\net10.0\метод.dll
+C:\Users\HP\Desktop\метод\bin\Debug\net10.0\метод.pdb
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.AssemblyInfo.cs
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.sourcelink.json
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.dll
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\refint\метод.dll
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.pdb
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\метод.genruntimeconfig.cache
+C:\Users\HP\Desktop\метод\obj\Debug\net10.0\ref\метод.dll
