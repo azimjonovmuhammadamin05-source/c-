@@ -243,18 +243,44 @@
 
 
 // Task3
+// int a = int.Parse(Console.ReadLine());
+// void minmax(int a)
+// {
+//     int min = int.MaxValue;
+//     int max = int.MinValue;
+//     for (int i = a; i > 0; i /= 10)
+//     {
+//         int r = i % 10;
+//         if (r>max){max=r;}
+//         if (r<min){min=r;}
+//     }
+//     System.Console.WriteLine($"{min}+{max}={min+max}");
+// }
+// minmax(a);
+
+
+// Task4
+// int a = int.Parse(Console.ReadLine());
+// int b = int.Parse(Console.ReadLine());
+// void multask(int a, int b)
+// {
+//     double pw = 0;
+//     pw = Math.Pow(a,b);
+//     System.Console.WriteLine(pw);
+
+// }
+
+// multask(a, b);
+
+
+// Task5
 int a = int.Parse(Console.ReadLine());
-void minmax(int a)
+int b = int.Parse(Console.ReadLine());
+void swap(int a, int b)
 {
-    int min = int.MaxValue;
-    int max = int.MinValue;
-    for (int i = a; i > 0; i /= 10)
-    {
-        int r = i % 10;
-        if (r>max){max=r;}
-        if (r<min){min=r;}
-    }
-    System.Console.WriteLine($"{min}+{max}={min+max}");
+    (a, b) = (b, a);
+    System.Console.WriteLine($"x={a}, y={b}");
 }
-minmax(a);
+
+swap(a, b);
 
