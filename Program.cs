@@ -218,25 +218,43 @@
 
 
 // Task2
+// int a = int.Parse(Console.ReadLine());
+// int b = int.Parse(Console.ReadLine());
+// void multask(int a, int b)
+// {
+//     int sum = 0;
+//     sum = a + b;
+//     System.Console.WriteLine($"Add:{sum}");
+
+//     int sub = 0;
+//     sub = a - b;
+//     System.Console.WriteLine($"Subtract:{sub}");
+
+//     int mlt = 0;
+//     mlt = a * b;
+//     System.Console.WriteLine($"Multiply:{mlt}");
+
+//     int dev = 0;
+//     dev = a / b;
+//     System.Console.WriteLine($"Division:{dev}");
+// }
+
+// multask(a, b);
+
+
+// Task3
 int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
-void multask(int a, int b)
+void minmax(int a)
 {
-    int sum = 0;
-    sum = a + b;
-    System.Console.WriteLine($"Add:{sum}");
-
-    int sub = 0;
-    sub = a - b;
-    System.Console.WriteLine($"Subtract:{sub}");
-
-    int mlt = 0;
-    mlt = a * b;
-    System.Console.WriteLine($"Multiply:{mlt}");
-
-    int dev = 0;
-    dev = a / b;
-    System.Console.WriteLine($"Division:{dev}");
+    int min = int.MaxValue;
+    int max = int.MinValue;
+    for (int i = a; i > 0; i /= 10)
+    {
+        int r = i % 10;
+        if (r>max){max=r;}
+        if (r<min){min=r;}
+    }
+    System.Console.WriteLine($"{min}+{max}={min+max}");
 }
+minmax(a);
 
-multask(a, b);
