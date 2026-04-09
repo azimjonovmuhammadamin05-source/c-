@@ -183,13 +183,35 @@
 // PrintTree(a);
 
 
-// class-Tak1
-int a= int.Parse(Console.ReadLine());
-void PrintFromNumberToOne(int number)
+
+// Home-Task2
+int a = int.Parse(Console.ReadLine());
+void func(int a)
 {
-    for(int i=a; i>0; i--)
+    int ev = 0;
+    int od = 0;
+    int cnt = 0;
+    int sum = 0;
+
+    for (int i = a; i > 0; i/=10)
     {
-        System.Console.WriteLine(i);
+        int r = i % 10;
+        if (r % 2 == 0)
+        {
+            ev++;
+        }
+        else
+        {
+            od++;
+        }
+
+        cnt++;
+        sum+=r;
     }
+
+    System.Console.WriteLine($"Even:{ev}");
+    System.Console.WriteLine($"Odd:{od}");
+    System.Console.WriteLine($"Digit:{cnt}");
+    System.Console.WriteLine($"Sum:{sum}");
 }
-PrintFromNumberToOne(a);
+func(a);
