@@ -136,48 +136,60 @@
 
 
 // 2
-int a = int.Parse(Console.ReadLine());
-void PrintSpaces(int a)
+// int a = int.Parse(Console.ReadLine());
+// void PrintSpaces(int a)
+// {
+//     for (int i = 0; i < a; i++)
+//     {
+//         System.Console.Write(" ");
+//     }
+// }
+
+// // PrintSpaces(3);
+
+// void PrintStars(int a)
+// {
+//     for (int j = 0; j < a * 2 - 1; j++)
+//     {
+//         System.Console.Write("*");
+//     }
+// }
+
+// // PrintStars(3);
+
+// void PrintTree(int a)
+// {
+//     for (int i = 1; i <= a; i++)
+//     {
+//         PrintSpaces(a - i);
+//         PrintStars(i);
+//         System.Console.WriteLine();
+//     }
+//     poya(a);
+// }
+// void poya(int b)
+// {
+//     for (int i = 0; i < 2; i++)
+//     {
+//         PrintSpaces(b - 2);
+//         for (int g = 0; g < 3; g++)
+//         {
+//             System.Console.Write("*");
+//         }
+//         System.Console.WriteLine();
+//     }
+
+// }
+// PrintTree(a);
+
+
+// class-Tak1
+int a= int.Parse(Console.ReadLine());
+void PrintFromNumberToOne(int number)
 {
-    for (int i = 0; i < a; i++)
+    for(int i=a; i>0; i--)
     {
-        System.Console.Write(" ");
+        System.Console.WriteLine(i);
     }
 }
-
-// PrintSpaces(3);
-
-void PrintStars(int a)
-{
-    for (int j = 0; j < a * 2 - 1; j++)
-    {
-        System.Console.Write("*");
-    }
-}
-
-// PrintStars(3);
-
-void PrintTree(int a)
-{
-    for (int i = 1; i <= a; i++)
-    {
-        PrintSpaces(a - i);
-        PrintStars(i);
-        System.Console.WriteLine();
-    }
-    poya(a);
-}
-void poya(int b)
-{
-    for (int i = 0; i < 2; i++)
-    {
-        PrintSpaces(b - 2);
-        for (int g = 0; g < 3; g++)
-        {
-            System.Console.Write("*");
-        }
-        System.Console.WriteLine();
-    }
-
-}
-PrintTree(a);
+PrintFromNumberToOne(a);
