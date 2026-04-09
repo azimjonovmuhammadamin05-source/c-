@@ -184,34 +184,59 @@
 
 
 
-// Home-Task2
+// Home-Task1
+// int a = int.Parse(Console.ReadLine());
+// void func(int a)
+// {
+//     int ev = 0;
+//     int od = 0;
+//     int cnt = 0;
+//     int sum = 0;
+
+//     for (int i = a; i > 0; i /= 10)
+//     {
+//         int r = i % 10;
+//         if (r % 2 == 0)
+//         {
+//             ev++;
+//         }
+//         else
+//         {
+//             od++;
+//         }
+
+//         cnt++;
+//         sum += r;
+//     }
+
+//     System.Console.WriteLine($"Even:{ev}");
+//     System.Console.WriteLine($"Odd:{od}");
+//     System.Console.WriteLine($"Digit:{cnt}");
+//     System.Console.WriteLine($"Sum:{sum}");
+// }
+// func(a);
+
+
+// Task2
 int a = int.Parse(Console.ReadLine());
-void func(int a)
+int b = int.Parse(Console.ReadLine());
+void multask(int a, int b)
 {
-    int ev = 0;
-    int od = 0;
-    int cnt = 0;
     int sum = 0;
+    sum = a + b;
+    System.Console.WriteLine($"Add:{sum}");
 
-    for (int i = a; i > 0; i/=10)
-    {
-        int r = i % 10;
-        if (r % 2 == 0)
-        {
-            ev++;
-        }
-        else
-        {
-            od++;
-        }
+    int sub = 0;
+    sub = a - b;
+    System.Console.WriteLine($"Subtract:{sub}");
 
-        cnt++;
-        sum+=r;
-    }
+    int mlt = 0;
+    mlt = a * b;
+    System.Console.WriteLine($"Multiply:{mlt}");
 
-    System.Console.WriteLine($"Even:{ev}");
-    System.Console.WriteLine($"Odd:{od}");
-    System.Console.WriteLine($"Digit:{cnt}");
-    System.Console.WriteLine($"Sum:{sum}");
+    int dev = 0;
+    dev = a / b;
+    System.Console.WriteLine($"Division:{dev}");
 }
-func(a);
+
+multask(a, b);
